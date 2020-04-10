@@ -146,11 +146,6 @@ select{
 
 
 
-
-
-
-// Slider is shamelessly stolen from "https://www.w3schools.com/howto/howto_js_rangeslider.asp"
-
 .slider {
   -webkit-appearance: none;
   position: absolute;
