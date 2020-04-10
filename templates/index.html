@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="{{url_for('static', filename='js/js.js')}}"></script>
+</head>
+<body>
+
+<img style="width:1000px;" src="/static/map.png">
+
+
+<!-- DONE -->
+<img class="villager robin" src="/static/Robin.png">
+<img class="villager pam" src="/static/Pam.png">
+<img class="villager marnie" src="/static/Marnie.png">
+<img class="villager kent" src="/static/Kent.png">
+<img class="villager clint" src="/static/Clint.png">
+<img class="villager emily" src="/static/Emily.png">
+<img class="villager wizard" src="/static/Wizard.png">
+<img class="villager willy" src="/static/Willy.png">
+<img class="villager george" src="/static/George.png">
+<!-- CURRENTLY WORKING -->
+<img class="villager caroline" src="/static/Caroline.png">
+
+
+
+<input type="range" min="0" max="120" value="0" class="slider" id="myRange">
+<select id="season">
+  <option value="spring">Spring</option>
+  <option value="summer">Summer</option>
+  <option value="autumn">Autumn</option>
+  <option value="winter">Winter</option>
+</select>
+<input type="number" id="date" value="1" min="1" max="28">
+</body>
+</html>
